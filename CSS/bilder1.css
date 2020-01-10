@@ -1,0 +1,209 @@
+@charset "UTF-8";
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+/*
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+    Grund Layout
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+*/
+/*
+-----------------------------------------------------------------------
+    KopfZeille
+-----------------------------------------------------------------------
+*/
+
+.p-logo {
+    color: white;
+    font-size: 3em;
+    font-family: arial, verdana, sens-serif;
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 10px;
+}
+
+.wrapper {
+    background-color: #8fd3cc;
+}
+
+/*
+-----------------------------------------------------------------------
+    GrundElemente
+-----------------------------------------------------------------------
+*/
+.header {
+    text-align: center;
+    padding: 1em;
+    background-color: #2e5953;
+    color: #efefef;
+    border-bottom: 8px solid #8fd3cc;
+    margin: 0;
+}
+
+body {
+    color: black;
+    font-family: arial, verdana, sens-serif;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    font-size: 13px;
+}
+
+section {
+    background-color: #8fd3cc;
+    margin: 0;
+}
+
+div {
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+
+/*
+-----------------------------------------------------------------------
+    Navigatzion
+-----------------------------------------------------------------------
+*/
+
+nav ul {
+    text-align: center;
+    background-color: #8fd3cc;
+    margin: 0px;
+    padding: 0 0 5px 0;
+    font-size: 18px;
+}
+
+nav ul li {
+    text-align: center;
+    display: inline-block;
+    margin: 15px 10px;
+}
+
+nav ul li a {
+    color: black;
+    padding: 8px;
+    text-decoration: none;
+    padding: 8px 12px;
+    border: 1px solid #2e5953;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #2e5953;
+    color: #8fd3cc;
+    transform: scale(1.2);
+}
+
+/*
+-----------------------------------------------------------------------
+    FussZeille
+-----------------------------------------------------------------------
+*/
+.footer {
+    background-color: #2e5953;
+    color: #efefef;
+    padding: 2em;
+    text-align: center;
+    border-top: 8px solid #8fd3cc;
+}
+
+.botten {
+    text-align: right;
+}
+
+a[href="#top"] {
+    background-color: #8fd3cc;
+    border: 1px solid #2e5953;
+    text-decoration: none;
+    color: black;
+    padding: 2px;
+    margin: 5px;
+    font-size: 11px;
+    display: inline-block;
+}
+
+a:hover {
+    background-color: #2e5953;
+    color: #8fd3cc;
+    transform: scale(1.2);
+}
+
+
+/*
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+    Spezielle Seiten Layout
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+*/
+
+h2 {
+    font-size: 35px;
+    text-align: center;
+}
+
+/*
+figure:hover figcaption {
+    margin-top: 365px;
+}
+*/
+
+
+
+div.bilder a {
+    display: inline-block;
+    margin: 20px;
+}
+
+div.bilder {
+    text-align: center;
+}
+
+img {
+    border: 5px solid #2e5953;
+    height: 300px;
+}
+
+
+/*
+figure {
+            position: relative;
+            color: aliceblue;
+            width: 300px;
+            height: 300px;
+            overflow: hidden;
+        }
+
+        figure:hover figcaption {
+            margin-top: 250px;
+         
+        }
+
+     
+        figcaption {
+            position: absolute;
+            width: 100%;
+            background-color: brown;
+            padding: 10px 20px;
+            margin-top: 400px;
+            transition: margin-top 1s ease-out 0.5s; verlangsamt den schlus noch mal das ease-out/in
+            
+
+        }
+figure img {
+    position: absolute;
+}*/

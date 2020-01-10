@@ -1,0 +1,228 @@
+@charset "UTF-8";
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+/*
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+    Grund Layout
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+*/
+/*
+-----------------------------------------------------------------------
+    KopfZeille
+-----------------------------------------------------------------------
+*/
+
+.p-logo {
+    color: white;
+    font-size: 3em;
+    font-family: arial, verdana, sens-serif;
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 10px;
+}
+
+.wrapper {
+    background-color: #8fd3cc;
+}
+
+/*
+-----------------------------------------------------------------------
+    GrundElemente
+-----------------------------------------------------------------------
+*/
+.header {
+    text-align: center;
+    padding: 1em;
+    background-color: #2e5953;
+    color: #efefef;
+    border-bottom: 8px solid #8fd3cc;
+    margin: 0;
+}
+
+body {
+    color: black;
+    font-family: arial, verdana, sens-serif;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    font-size: 13px;
+}
+
+section {
+    background-color: #8fd3cc;
+    margin: 0;
+}
+
+div {
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+
+/*
+-----------------------------------------------------------------------
+    Navigatzion
+-----------------------------------------------------------------------
+*/
+
+nav ul {
+    text-align: center;
+    background-color: #8fd3cc;
+    margin: 0px;
+    padding: 0 0 5px 0;
+    font-size: 18px;
+}
+
+nav ul li {
+    text-align: center;
+    display: inline-block;
+    margin: 15px 10px;
+}
+
+nav ul li a {
+    color: black;
+    padding: 8px;
+    text-decoration: none;
+    padding: 8px 12px;
+    border: 1px solid #2e5953;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #2e5953;
+    color: #8fd3cc;
+    transform: scale(1.2);
+}
+
+/*
+-----------------------------------------------------------------------
+    FussZeille
+-----------------------------------------------------------------------
+*/
+.footer {
+    background-color: #2e5953;
+    color: #efefef;
+    padding: 2em;
+    text-align: center;
+    border-top: 8px solid #8fd3cc;
+}
+
+.botten {
+    text-align: right;
+}
+
+a[href="#top"] {
+    background-color: #8fd3cc;
+    border: 1px solid #2e5953;
+    text-decoration: none;
+    color: black;
+    padding: 2px;
+    margin: 5px;
+    font-size: 11px;
+    display: inline-block;
+}
+
+a:hover {
+    background-color: #2e5953;
+    color: #8fd3cc;
+    transform: scale(1.2);
+}
+
+/*
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+    Spezielle Seiten Layout
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+*/
+table {
+    border: 1px solid black;
+    position: relative;
+    width: 70%;
+    padding: 20px;
+    margin: 40px 25% 40px 15%;
+}
+
+article {
+    text-align: center;
+
+}
+
+h1 {
+    margin: 40px 5% 40px 5%;
+    padding: 0;
+    text-align: center;
+}
+
+h2 {
+    margin: 40px 5% 15px 5%;
+    padding: 0;
+}
+
+h3 {
+    margin: 25px 5% 10px 5%;
+    padding: 0;
+}
+
+h4 {
+    margin: 0px 5% 40px 5%;
+    padding: 0;
+}
+
+h4 a.butten {
+    font-size: 16px;
+}
+
+img {
+    width: 30%;
+    margin: 0px 5% 0px 5%;
+}
+
+.bild {
+    background-color: whitesmoke;
+    border: 0;
+    margin: 40px 5% 40px 5%;
+}
+
+.butten {
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-size: 13px;
+    border: 0px solid #2e5953;
+    text-decoration: underline;
+}
+
+p {
+    margin: 40px 5% 40px 5%;
+}
+
+ol {
+    margin: 40px 25% 40px 25%;
+    text-align: left;
+}
+
+.datum {
+    display: contents;
+}
+
+.titel {
+    font-weight: bold;
+    margin: 15px;
+    display: inline-block;
+}

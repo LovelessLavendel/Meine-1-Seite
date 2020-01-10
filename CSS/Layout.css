@@ -1,0 +1,189 @@
+@charset "UTF-8";
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+/*
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+    Grund Layout
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+*/
+/*
+-----------------------------------------------------------------------
+    KopfZeille
+-----------------------------------------------------------------------
+*/
+
+.p-logo {
+    color: white;
+    font-size: 5em;
+    font-family: arial, verdana, sens-serif;
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    text-shadow: 3px 3px5px gray;
+}
+
+.wrapper {
+    background-color: #8fd3cc;
+
+}
+
+/*
+-----------------------------------------------------------------------
+    GrundElemente
+-----------------------------------------------------------------------
+*/
+.header {
+    text-align: center;
+    padding: 1em;
+    background-color: #2e5953;
+    color: #efefef;
+    border-bottom: 8px solid #8fd3cc;
+    margin: 0;
+}
+
+body {
+    color: #1d2731;
+    font-family: arial, verdana, sens-serif;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+div {
+    background-color: whitesmoke;
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+
+/*
+-----------------------------------------------------------------------
+    Navigatzion
+-----------------------------------------------------------------------
+*/
+nav {
+    background-color: #8fd3cc;
+    margin: 0;
+    padding: 0px;
+}
+
+ul {
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: inherit;
+    color: black;
+    background-color: #8fd3cc;
+    padding: 8px 12px;
+}
+
+a {
+    text-decoration: none;
+    border: 1px solid #2e5953;
+    padding: 10px;
+    display: inline-block;
+    background-color: #2e5953;
+    color: white;
+    font-size: 22px;
+    font-weight: #8fd3cc;
+}
+
+/*
+-----------------------------------------------------------------------
+    FussZeille
+-----------------------------------------------------------------------
+*/
+.footer {
+    background-color: #2e5953;
+    color: #efefef;
+    padding: 2em;
+    text-align: center;
+    border-top: 8px solid #8fd3cc;
+}
+
+/*
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+    Spezielle Seiten Layout
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+*/
+.article {
+    background-color: whitesmoke;
+    font-style: normal;
+    font-size: 22px;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.Box1 {
+    width: 50%;
+    text-align: right;
+    margin: 100px 20px 100px 0px;
+    padding-left: 10%;
+}
+
+.box2 {
+    width: 50%;
+    padding-top: 100px;
+    left: 20px;
+    margin-bottom: 10;
+}
+
+.img {
+    position: absolute;
+    width: 300px;
+    display: block;
+    float: left;
+
+}
+a:hover {
+    background-color: #2e5953;
+    color: #8fd3cc;
+    transform: scale(1.2);
+}
+
+div.bilder a {
+    display: inline-block;
+    margin: 10px;
+
+
+}

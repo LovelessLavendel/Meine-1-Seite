@@ -1,0 +1,87 @@
+<!DOCTYP html <html>
+
+
+    <head>
+        <title>Kontakte</title>
+        <meta name="author" content="Suska_Köhler">
+        <meta name="keywords" content="Suska Köhler, Projekte, Zertifikat, Abschlusszeugnis, SL, Maya, Blender, Unity">
+        <link rel="stylesheet" type="text/css" href="CSS/fomular1.css">
+    </head>
+
+    <body>
+        <div>
+            <header class="header">
+                <p id="top" class="p-logo">Kontakte</p>
+            </header>
+            <section>
+                <nav>
+                    <ul>
+                        <li class="li-nav"><a href="index.html">Willkommen</a></li>
+                        <li class="li-nav"><a href="Bilder.html">Bilder</a></li>
+                        <li class="li-nav"><a href="360.html">360°</a></li>
+                        <li class="li-nav"><a href="Skript.html">Skript</a></li>
+                        <li class="li-nav"><a href="Werdegang.html">Werdegang</a></li>
+                        <li class="li-nav"><a href="Inpressum.html">Kontakte</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </div>
+        <form action="">
+            <label for="vn"><b>Vorname *</b></label>
+            <input type="text" name="Vorname" id="vn" required placeholder="Ihr Vorname"><br><br>
+            <label for="nn"><b>Nachname *</b></label>
+            <input type="text" name="Nachname" id="nn" required placeholder="Ihr Nachname">
+            <br><br>
+            <label for="en"> <b>E-Mail *</b></label>
+            <input type="email" name="email" id="em" required placeholder="Ihre E-Mail">
+            <br> <br>
+            <label for="gd"><b>Geburtstag *</b></label>
+            <input type="date" name="Geburtstag" id="gd" required><br><br>
+            <br><br>
+            <br><br>
+            <label for=""> <b>Anrede</b></label>
+            <br>
+            <label for="gm">Herr</label>
+            <input type="radio" name="Geschlecht" id="gm" checked><br>
+            <label for="gw"> Frau</label>
+            <input type="radio" name="Geschlecht" id="gw"><br>
+            <br>
+            <br>
+            <label for="la"><b>Ihr Anfrage?</b> </label><br>
+            <select name="land" id="la">
+                <option value="kt">Kontakt</option>
+                <option value="at">Auftrag</option>
+                <option value="fg">Frage</option>
+                <option value="bs">Beschwerde</option>
+            </select>
+            <br>
+            <br>
+            <br>
+            <label for="me"> <b>Ihre Nachicht *</b> </label><br>
+            <textarea name="message" id="me" required placeholder="Scheiben Sie hier Ihre Nachicht"></textarea>
+            <br>
+            <br>
+            <label for="news"> <b> Möchten sie eine Rückantwort haben?</b>
+            </label>
+            <br>
+            <input type="checkbox" name="news" id="news" checked>
+            <br>
+            <br>
+            <br>
+            <input type="file" multiple name="cv" id="cv">
+            <br>
+            <br>
+            <br>
+            <input type="submit" value="Senden" id="sb">
+            <br>
+            <p class="klein">*Muss ausgefüllt werden</p>
+        </form>
+        <p class="botten">
+            <a href="#top">nach oben</a>
+        </p>
+        <footer class="footer">
+            Köhler, Suska - &copy;&nbsp;2019
+        </footer>
+    </body>
+
+    </html>

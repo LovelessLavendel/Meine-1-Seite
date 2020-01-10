@@ -1,0 +1,214 @@
+@charset "UTF-8";
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+/*
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+    Grund Layout
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+*/
+/*
+-----------------------------------------------------------------------
+    KopfZeille
+-----------------------------------------------------------------------
+*/
+
+.p-logo {
+    color: white;
+    font-size: 5em;
+    font-family: arial, verdana, sens-serif;
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    text-shadow: 3px 3px5px gray;
+}
+
+.wrapper {
+    background-color: #8fd3cc;
+}
+
+/*
+-----------------------------------------------------------------------
+    GrundElemente
+-----------------------------------------------------------------------
+*/
+.header {
+    text-align: center;
+    padding: 1em;
+    background-color: #2e5953;
+    color: #efefef;
+    border-bottom: 8px solid #8fd3cc;
+    margin: 0;
+}
+
+body {
+    color: #1d2731;
+    font-family: arial, verdana, sens-serif;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+section {
+    background-color: #8fd3cc;
+    margin: 0;
+}
+
+div {
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+
+/*
+-----------------------------------------------------------------------
+    Navigatzion
+-----------------------------------------------------------------------
+*/
+
+nav ul {
+    text-align: center;
+    background-color: #8fd3cc;
+    margin: 0px;
+    padding: 0 0 8px 0;
+}
+
+nav ul li {
+    text-align: center;
+    display: inline-block;
+    margin: 15px 10px;
+}
+
+nav ul li a {
+    color: black;
+    padding: 8px;
+    text-decoration: none;
+    padding: 8px 12px;
+    border: 1px solid #2e5953;
+}
+
+a:hover {
+    background-color: #2e5953;
+    color: #8fd3cc;
+    transform: scale(1.2);
+}
+
+div.bilder a {
+    display: inline-block;
+    margin: 20px;
+}
+
+
+/*
+-----------------------------------------------------------------------
+    FussZeille
+-----------------------------------------------------------------------
+*/
+.footer {
+    background-color: #2e5953;
+    color: #efefef;
+    padding: 2em;
+    text-align: center;
+    border-top: 8px solid #8fd3cc;
+}
+
+a.top {
+    background-color: #8fd3cc;
+    border: 1px solid #2e5953;
+    text-decoration: none;
+    color: black;
+    padding: 2px;
+    margin: 5px;
+    font-size: 12px;
+    text-align: right;
+    display: inline-block;
+   
+}
+
+a:hover {
+    background-color: #2e5953;
+    color: #8fd3cc;
+    transform: scale(1.2);
+}
+
+div.bilder a {
+    display: inline-block;
+    margin: 20px;
+}
+
+
+/*
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+    Spezielle Seiten Layout
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+*/
+label {
+    width: 200px;
+    display: inline-block;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+textarea {
+    width: 240px;
+    padding: 20px 20px 0px 5px;
+    border: none;
+    border-bottom: 2px solid gray;
+    /*    box-shadow:0px 1px 2px*/
+    color: gray;
+}
+
+textarea[ name="message"] {
+    border: 2px solid gray;
+    padding: 5px 20px 0px 5px;
+    height: 240px;
+    width: 442
+}
+
+textarea {
+    height: 240px;
+}
+
+input:focus,
+textarea:focus {
+    background-color: lightcyan;
+}
+
+/*
+.article {
+    font-style: normal;
+    font-size: 22px;
+}
+*/
+
+h1 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+form {
+    text-align: center;
+    margin: 40px;
+}
+klein {
+  font-size: 5px;
+}
